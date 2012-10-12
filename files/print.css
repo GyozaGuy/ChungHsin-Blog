@@ -1,0 +1,140 @@
+body {
+	font-family:arial,helvetica;
+	font-size:12px;
+}
+div#container {
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width:800px;
+}
+header {
+	height:75px;
+	margin-bottom:10px;
+}
+header a.nav {
+	display:inline-block;
+	font-size:32px;
+	margin-right:10px;
+	padding:0px 5px;
+	text-decoration:none;
+}
+div#comments div.comment {
+	display:table;
+	width:100%;
+}
+div#comments div.comment div.userInfo {
+	display:table-cell;
+	height:100px;
+	text-align:center;
+	width:150px;
+}
+div#comments div.comment div.userInfo img {
+	border:2px solid #EEE;
+}
+div#comments div.comment div.content {
+	display:table-cell;
+	vertical-align:top;
+}
+div#comments div.comment div.content textarea {
+	height:100%;
+	width:100%;
+}
+a[href]:after {
+	content:' [ 'attr(href)' ]';
+}
+blockquote {
+	border:2px dotted #111;
+	border-radius:10px;
+	font-style:italic;
+	padding:10px;
+	width:300px;
+}
+blockquote:first-letter {
+	font-size:16px;
+}
+form {
+	margin-left:auto;
+	margin-right:auto;
+}
+form#login, form#register {
+	width:325px;
+}
+form#searchBox {
+	margin:0px;
+	width:auto;
+}
+form#searchBox input[type=submit] {
+	display:none;
+	visibility:hidden;
+	width:0px;
+}
+h1, h2 {
+	border-bottom:2px dotted #111;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+	cursor:pointer;
+}
+input[type=text], input[type=password] {
+	width:150px;
+}
+label {
+	float:left;
+	text-align:right;
+	width:150px;
+}
+textarea {
+	height:150px;
+	width:150px;
+}
+footer {
+	margin-top:10px;
+}
+.bold {
+	font-weight:bold;
+}
+.borderDefault {
+	border:1px solid #555;
+}
+.borderLight {
+	border:2px solid #AAA;
+}
+.centered {
+	text-align:center;
+}
+.floatLeft {
+	float:left;
+}
+.floatRight {
+	float:right;
+}
+.gradientBlue {
+	padding:10px;
+}
+.gradientWhite {
+	padding:10px;
+}
+.noBorder {
+	border:none;
+}
+.noMargin {
+	margin:0px;
+}
+.noPadding {
+	padding:0px;
+}
+.padding5 {
+	padding:5px;
+}
+.rounded {
+	border-radius:10px;
+}
+.text10 {
+	font-size:12px;
+}
+.text12 {
+	font-size:12px;
+}
+.textRight {
+	text-align:right;
+}
